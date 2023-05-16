@@ -14,6 +14,7 @@ class ViewController: UIViewController, UICollectionViewDelegate , UICollectionV
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "Movies"
         collectionView.collectionViewLayout = UICollectionViewFlowLayout()
         viewModel = ViewModel()
         viewModel.getMovies()
